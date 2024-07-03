@@ -1,0 +1,11 @@
+def test() :
+    print("this is a first time I am using Vs Code")
+    
+def genfib(n):
+    a = 1
+    b = 1
+    l = []
+    for i in range(n):
+        l.append(a)
+        a,b = b, a+b
+    return l
